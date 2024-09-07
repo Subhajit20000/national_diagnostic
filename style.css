@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 9vh;
+    background-color: rgb(21, 86, 146);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0px 15px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 20px;
+    margin: 0px 10px;
+}
+
+#uploader {
+    margin: 0px 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(58, 147, 219);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    filter: invert(1);
+}
+
+#nav2 {
+    background-color: white;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftNav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.leftNav img {
+    height: 65px;
+}
+
+.rightNav ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: -200px;
+}
+
+.rightNav ul li {
+    padding: 0px 20px;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    background: url(/images/web-banner.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+main::after {
+    content: "";
+    background-color: rgb(197, 187, 187);
+    height: 113vh;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.logo {
+    left: 50px;
+    top: -10px;
+    position: relative;
+}
+
+#box {
+    height: 550px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    top: 150px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#box::before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+#choose {
+    background: none;
+    width: 90%;
+    color: white;
+    height: 40px;
+    border: 1px solid white;
+    padding: 0px 10px;
+}
+
+button {
+    background-color: rgb(233, 55, 138);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.find_btn {
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.book_btn {
+    width: 90%;
+    height: 40px;
+    border: none;
+}
+
+.Input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 40px;
+    margin: 10px 15px;
+    width: 260px;
+    padding: 10px 10px;
+}
+
+#number {
+    width: 92%;
+}
+
+#afterMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#afterMain h1 {
+    padding: 20px;
+}
+
+#afterMain p {
+    padding: 20px;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 99vw;
+}
+
+.photos img {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.photoBox {
+    background-color: rgb(118, 154, 231);
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clickHereBtn {
+    font-size: 1rem;
+    width: 230px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+#address{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+address{
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+#whatsappIcon{
+    width: 40px;
+    height: 40px;
+    position: sticky;
+    left: 95%;
+    bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+}
