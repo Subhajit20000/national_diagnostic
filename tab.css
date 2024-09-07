@@ -1,0 +1,16 @@
+.photos img {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photoBox {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main::after {
+display: none;
+}
