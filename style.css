@@ -38,6 +38,7 @@ nav ul li a {
     height: 20px;
     margin: 0px 10px;
 }
+
 .right img {
     height: 20px;
     margin: 0px 10px;
@@ -168,6 +169,7 @@ input {
 #number {
     width: 92%;
 }
+
 #feedback {
     width: 92%;
 }
@@ -189,9 +191,13 @@ input {
 #afterMain p {
     padding: 20px;
 }
-h3, p , h1{
+
+h3,
+p,
+h1 {
     text-align: center;
 }
+
 .photos {
     display: flex;
     align-items: center;
@@ -232,7 +238,7 @@ h3, p , h1{
     padding: 10px 0px;
 }
 
-#address{
+#address {
     display: flex;
     flex-direction: column;
     height: 20vh;
@@ -241,14 +247,12 @@ h3, p , h1{
     justify-content: space-evenly;
 }
 
-
-
-address{
+address {
     font-style: normal;
     font-size: 1.5rem;
 }
 
-#whatsappIcon{
+#whatsappIcon {
     width: 40px;
     height: 40px;
     position: sticky;
@@ -256,6 +260,6 @@ address{
     bottom: 5%;
 }
 
-a{
+a {
     text-decoration: none;
 }
