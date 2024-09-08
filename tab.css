@@ -14,3 +14,7 @@
 main::after {
 display: none;
 }
+
+.photoBox h3{
+    font-size: 0.9rem;
+}
