@@ -34,19 +34,13 @@ nav ul li a {
     align-items: center;
 }
 
-img {
+.left img {
     height: 20px;
     margin: 0px 10px;
 }
-
-#uploader {
-    margin: 0px 150px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(58, 147, 219);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.right img {
+    height: 20px;
+    margin: 0px 10px;
 }
 
 .icon {
@@ -57,29 +51,24 @@ img {
     background-color: white;
     height: 12vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-.leftNav{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-.leftNav img {
-    height: 65px;
+    border: 1px solid rgb(0, 204, 255);
 }
 
-.rightNav ul {
+#nav2 img {
+    height: 65px;
+    border: 1px solid red;
+
+}
+
+#nav2 ul {
     display: flex;
     list-style: none;
     position: relative;
-    left: -200px;
 }
 
-.rightNav ul li {
+#nav2 ul li {
     padding: 0px 20px;
 }
 
@@ -158,13 +147,6 @@ button {
     font-weight: 300;
 }
 
-.find_btn {
-    height: 50px;
-    width: 250px;
-    border: none;
-    border-radius: 4px;
-}
-
 .book_btn {
     width: 90%;
     height: 40px;
@@ -184,6 +166,9 @@ input {
 }
 
 #number {
+    width: 92%;
+}
+#feedback {
     width: 92%;
 }
 
