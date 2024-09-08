@@ -1,0 +1,24 @@
+#box {
+    left: 10%;
+    top: 30px;
+}
+.rightNav ul {
+    left: -5px;
+}
+
+.leftNav img {
+    position: relative;
+    left: 10px;
+}
+
+.leftNav p {
+    left: 20px;
+}
+#box {
+    height: 650px;
+    width: 500px;
+}
+
+main::before {
+object-fit: contain;
+}
